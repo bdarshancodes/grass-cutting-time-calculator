@@ -1,0 +1,15 @@
+#include<stdio.h>
+void main(){
+    int hl,yl,hw,yw,g,house,yard;
+    float final;
+    printf("enter the lenght and width of house\n");
+    scanf("%d%d",&hl,&hw);
+    printf("enter the lenght and width of yard\n");
+    scanf("%d%d",&yl,&yw);
+    house=hl*hw;
+    yard=yl*yw;
+    g=yard-house;
+    final=g/2.0;
+    printf("it will take %.2f seconds for cutting grass ",final);
+
+}
